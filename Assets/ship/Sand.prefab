@@ -232,14 +232,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7869220593052978244}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.121380776, y: -0, z: -0, w: 0.99260604}
-  m_LocalPosition: {x: 0.0212, y: 0.0001525688, z: -0.06694765}
+  m_LocalRotation: {x: -0.0055936887, y: -0.68865734, z: 0.015160881, w: 0.72490686}
+  m_LocalPosition: {x: 0.0737, y: 0.0223, z: 0.0154}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1248996384092098689}
   m_Father: {fileID: 3396019110317763398}
-  m_LocalEulerAnglesHint: {x: 13.944, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.732, y: -87.051, z: 1.701}
 --- !u!1001 &374524767455963171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -402,7 +402,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1902720553855329440}
+        m_TargetAssemblyTypeName: Interactions, Assembly-CSharp
+        m_MethodName: selected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
