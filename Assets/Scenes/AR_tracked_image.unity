@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TrackedImageManager: {fileID: 174477532}
-  shipPrefab: {fileID: 5026755118653477356, guid: 17a8e60fa1904ec41a2946cc0989c156,
+  shipPrefab: {fileID: 1695258177644663792, guid: 09547236fdff64dc896fab86a09d13fd,
     type: 3}
 --- !u!114 &174477532
 MonoBehaviour:
@@ -213,9 +213,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: fa2c8e942354382479a3111cd84777c5, type: 3}
+  m_Resource: {fileID: 8300000, guid: fa2c8e942354382479a3111cd84777c5, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
